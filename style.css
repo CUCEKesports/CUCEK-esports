@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(to right, #1a1a2e, #16213e);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  animation: bgShift 20s infinite alternate;
+}
+
+@keyframes bgShift {
+  0% { background-color: #1a1a2e; }
+  100% { background-color: #0f3460; }
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 40px;
+  text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #000000;
+}
+
+.glow-button {
+  background-color: #00f0ff;
+  border: none;
+  color: #000;
+  padding: 10px 25px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00f0ff;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.glow-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #0026ff, 0 0 30px #00f0ff;
+}
+.logo {
+  width: 330px;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+  filter: grayscale(40%) brightness(90%);
+  
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: scale(1.2) rotate(0deg);
+  filter: grayscale(0%) brightness(100%);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}

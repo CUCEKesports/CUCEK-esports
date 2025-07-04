@@ -1,0 +1,140 @@
+<!--Website created by Abhinav v
+contact:abhi2k5.v@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CUCEK eSports</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>CUCEK eSports</title>
+  <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+   <h1>CUCEK eSports</h1>
+<div class="container">
+  <div class="logo-side">
+    <img src="logo.webp" alt="Game Controller Icon" class="logo">
+  </div>
+
+  <div class="content-side">
+    <h2 id="typewriter"></h2>
+    <p>A student-driven eSports and gaming community of CUCEK. Compete, connect and conquer.</p>
+    <button class="glow-button">Join the Club</button>
+
+    <footer>
+      <p>Made with ❤ by CUCEK gamers</p>
+    </footer>
+  </div>
+</div>
+
+<script>
+  const text = "#levelUp";
+  let i = 0;
+  function typeWriter() {
+    if (i < text.length) {
+      document.getElementById("typewriter").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, 100);
+    }
+  }
+  window.onload = typeWriter;
+
+
+  </script>
+
+
+
+  <section class="services">
+    <h3>Our eSports & Club Services</h3>
+    <div class="service-cards">
+      <div class="card">
+        <img src="images/service1.jpg" alt="Service 1">
+        <h4>Community & Exclusive Events</h4>
+        <p>Regular events to engage with gamers across all levels.</p>
+      </div>
+      <div class="card">
+        <img src="images/service2.jpg" alt="Service 2">
+        <h4>Streaming and Content Creation</h4>
+        <p>Showcase your skills or host streams for the community.</p>
+      </div>
+      <div class="card">
+        <img src="images/service3.jpg" alt="Service 3">
+        <h4>Secure Gaming Platforms</h4>
+        <p>Play and compete safely on our exclusive platforms.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h3>Gallery</h3>
+    <div class="gallery-images">
+      <img src="images/event1.webp" alt="Event 1">
+      <img src="images/event2.webp" alt="Event 2">
+      <img src="images/event3.jpg" alt="Event 3">
+      <img src="images/event4.webp" alt="Event 4">
+      <img src="images/event5.webp" alt="Event 5">
+      <img src="images/event6.webp" alt="Event 6">
+      <img style="opacity: inherit;"" src="images/event7.webp" alt="Event 7">
+    </div>
+  </section>
+
+  <section class="team">
+    <h3>Team</h3>
+    <img src="images/team.png" alt="Team Logo">
+    <p>President: xy</p>
+    <p>secretary: xy</p>
+  </section>
+
+  <section class="highlights">
+    <h3>CUCEK eSports Club Highlights</h3>
+    <video width="320" height="240" controls>
+      <source src="videos/highlights.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section class="contact">
+    <h3>CUCEK eSports - Contact</h3>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Submit</button>
+  </section>
+  <section class="contact">
+    <div style="text-align: center; padding: 20px; color: white;">
+  <h3>Follow Us</h3>
+  <a href="https://www.instagram.com/cucek.esports?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=" target="_blank" style="margin: 0 10px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" width="30">
+  </a>
+  <a href="https://youtube.com" target="_blank" style="margin: 0 10px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174883.png" alt="YouTube" width="30">
+  </a>
+</div>
+  </section>
+
+  <section class="map">
+    <h3>Location</h3>
+    <iframe src="https://www.google.com/maps?q=cucek&output=embed"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CUCEK eSports Club</p>
+    <p style="text-align: right;">Website by Abhinav v</p>
+    <p style="text-align: right;"> Contact: <a href="https://www.linkedin.com/in/abhinav-v-616932302" target="_blank">linkedin</a></p>
+
+</footer>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

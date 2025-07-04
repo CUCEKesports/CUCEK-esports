@@ -1,0 +1,206 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #0e0e1a;
+  color: #f1f1f1;
+  
+}
+
+a {
+  color: #9c5eff;
+  text-decoration: none;
+}
+
+header {
+  background-color: #1b1b2f;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #9c5eff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(180deg, #1b1b2f, #2a2a40);
+}
+
+.hero-logo {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #9c5eff;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 1rem auto;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.hero button {
+  background-color: #9c5eff;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Services */
+.services {
+  padding: 2rem;
+  text-align: center;
+  background-color: #141421;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: #1e1e2e;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(156, 94, 255, 0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h4 {
+  margin: 0.8rem 0 0.3rem;
+  color: #9c5eff;
+}
+
+.card p {
+  padding: 0 1rem 1rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+/* Gallery */
+.gallery {
+  padding: 2rem;
+  background-color: #0e0e1a;
+}
+
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.gallery-images img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Team Section */
+.team {
+  text-align: center;
+  padding: 2rem;
+  background-color: #141421;
+}
+
+.team img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Highlights */
+.highlights {
+  text-align: center;
+  padding: 2rem;
+  background-color: #0e0e1a;
+}
+
+video {
+  max-width: 90%;
+  border: 2px solid #9c5eff;
+  border-radius: 10px;
+}
+
+/* Contact Form */
+.contact {
+  padding: 2rem;
+  text-align: center;
+  background-color: #1b1b2f;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #292944;
+  color: white;
+}
+
+button[type=\"submit\"] {
+  background-color: #9c5eff;
+  border: none;
+  color: white;
+  padding: 0.7rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Map */
+.map {
+  padding: 2rem;
+  background-color: #0e0e1a;
+  text-align: center;
+}
+
+iframe {
+  width: 90%;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1b1b2f;
+  color: #888;
+}
+
+
