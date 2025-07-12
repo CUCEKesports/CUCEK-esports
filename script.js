@@ -14,3 +14,18 @@ document.querySelector("form").addEventListener("submit", function (e) {
   alert("Thanks, your message has been submitted!");
   this.reset();
 });
+const swiper = new Swiper('.mySwiper', {
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false
+  }
+});

@@ -1,7 +1,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  background-color: #0e0e1a;
+  background-color: #0e0e1a ;
   color: #f1f1f1;
   
 }
@@ -78,7 +78,7 @@ header {
 }
 
 .card:hover {
-  transform: scale(1.03);
+  transform: scale(1.15);
 }
 
 .card img {
@@ -158,7 +158,7 @@ input, textarea {
   color: white;
 }
 button[type=\"submit\"] {
-  background-color: #9c5eff;
+  background-color: #4a1a97;
   border: none;
   color: white;
   padding: 0.7rem;
@@ -185,5 +185,3 @@ footer {
   background-color: #1b1b2f;
   color: #888;
 }
-
-

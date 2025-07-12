@@ -57,5 +57,32 @@ h2 {
 .logo:hover {
   transform: scale(1.2) rotate(0deg);
   filter: grayscale(0%) brightness(100%);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+ 
+}
+@font-face {
+  font-family: 'chopsic';
+  src: url(Chopsic.otf);
+}
+h1{
+  font-family: chopsic !important;
+}
+.mySwiper {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  margin: 40px auto;
+  border-radius: 15px;
+  overflow:hidden;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.swiper-button-prev{
+left: 0px !important;
+}
+.swiper-button-next{
+  right: 0px !important;
 }
